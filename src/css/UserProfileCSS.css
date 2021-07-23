@@ -1,0 +1,42 @@
+.usrInfo{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#ebtnn{
+    margin-top: 50px;
+    color: aliceblue;
+    background-color: #c71585;
+    cursor: pointer;
+    border: none;
+    border-radius: 10%;
+    width: 80px;
+}
+.info{
+    font-size: 40px;
+    font-weight: 200;
+}
+#sbtnn{
+    margin-top: 50px;
+    color: aliceblue;
+    background-color: #c71585;
+    cursor: pointer;
+}
+.inpc1{
+    border: transparent;
+    border-bottom: 2px solid #c71585;
+}
+.inpc{
+    font-size: 20px;
+    font-weight: 100;
+}
+#email{
+    border: transparent;
+    border-bottom: 2px solid #c71585; 
+}
+.cdinp{
+    font-size: 30px;
+    font-weight: 100;
+   
+}

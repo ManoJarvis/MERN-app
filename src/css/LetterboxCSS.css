@@ -1,0 +1,24 @@
+.letterBox{
+  background-image:url('../imgs/letterbg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.letterBox h1{
+  font-size: 52px;
+  font-weight: 200;
+ font-family: inherit; 
+}
+
+.letterBox h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-bottom: 50px;
+  display: block;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.full-width-image{
+  padding: 40px 40px;
+} 

@@ -1,0 +1,34 @@
+#delu{
+    font-size: 20px;
+}
+
+#delu:hover{
+    cursor:pointer; 
+    color:red;
+}
+
+
+.search-bar-dropdown{
+    width:30em;
+}
+
+#searchbar{
+    width: inherit;
+    position: relative;
+}
+
+#result{
+    width:inherit;
+    position:absolute;
+    z-index: 9999999999999;
+}
+
+#rpc:hover{
+    color: #c71585;
+
+}
+
+#rpc{
+    cursor: pointer;
+    width: 75%;
+}

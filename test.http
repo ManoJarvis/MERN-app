@@ -1,0 +1,16 @@
+GET http://localhost:8080/users/getusers
+###
+GET http://localhost:8080/products/getproducts/byname/Carnation Rosey
+###
+
+POST http://localhost:8080/admin/createadmin
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "password":"admin",
+    "email":"a@a",
+    "date":"2021-06-09",
+    "userType":"admin"
+}
+###

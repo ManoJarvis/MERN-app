@@ -1,0 +1,25 @@
+.deletebtn{
+    margin-left: 220px;
+   
+}
+
+@media screen and (min-width:400px) and (max-width:450px){
+    .deletebtn{
+        margin-left: 235px;
+    }
+    
+}
+
+@media screen and (min-width:451px) and (max-width:524px){
+    .deletebtn{
+        margin-left: 300px;
+    }
+    
+}
+
+@media screen and (min-width:524px) and (max-width:624px){
+    .deletebtn{
+        margin-left: 350px;
+    }
+    
+}

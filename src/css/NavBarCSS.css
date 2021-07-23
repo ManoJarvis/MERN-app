@@ -1,0 +1,70 @@
+/* For Nav bar */
+.navbar-brand{
+  width:80px;
+}
+.accIcon{
+ font-size: 35px;
+}
+.accIcon:hover{
+color:#c71585;
+}
+
+.search-bar-form{
+width: 50%;
+}
+#myInput {
+  width: inherit;
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px; 
+  position: relative;   
+}
+#myUL{
+  width: inherit;
+  position:absolute;
+  z-index: 9999999999999;
+  
+}
+
+#navc:hover{
+  color: #c71585;
+  
+
+
+}
+#navc{
+  cursor: pointer;
+  width: 50%;
+}
+
+
+
+
+
+/* Profile img */
+.profileImg{
+  border-radius: 50%;
+}
+
+/* For profile dropdown */
+
+@media screen and (min-width: 320px) and (max-width:480px){
+
+.search-bar-form{
+  width: 100%;
+
+}
+
+#navc{
+    width:75%;
+}
+}
+
+/* background */
+.navClr{
+  background-image: url('../imgs/navbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

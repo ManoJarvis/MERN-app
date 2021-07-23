@@ -1,0 +1,429 @@
+/*main headings */
+.heading{
+  font-weight: lighter;
+  text-align: center;
+}
+.navicon{
+  color:#969292;
+  font-size: 35px;
+}
+.navicon:hover{
+  color:#c71585;
+  cursor: pointer;
+}
+
+/* For Nav bar */
+.navbar-brand{
+  width:80px;
+}
+
+.icon:hover{
+  color: #c71585;
+  cursor: pointer;
+}
+.icon{
+  font-size: 35px;
+  color: black;
+}
+.redicon{
+  color:black;
+}
+.redicon:hover{
+color: red;
+cursor: pointer;
+}
+.buton{
+  background-color: #c71585;
+  color: white;
+}
+/* cards */
+.productcard {
+  transition: transform .2s;
+  margin: 0 auto;
+  width:320px;
+  height:400px;
+}
+.productimg{
+    padding: 10px;
+}
+.productimg:hover{
+  -ms-transform: scale(1); 
+  -webkit-transform: scale(1); 
+  transform: scale(1); 
+  opacity: 1;
+}
+.productcard:hover {
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+  opacity: 1;
+  border: #c71585 2px solid;
+  font-weight: lighter;
+  text-align: center;
+
+}
+                                     /* scrolling content */
+.swiper-container {
+  width: 100%;
+  margin: auto;
+}
+.swiper-slide {
+  height: 500px; 
+}
+                                        /* birthdaycard */
+#bdcard{
+  margin-top: 130px;
+  font-weight: 120;
+  font-size:30px ;
+  text-align: center;
+}
+
+
+                                         /* productlist */
+.productfilter{
+  width: 250px;
+  border-right: 1px solid black;
+  background-color: whitesmoke;
+  margin-bottom: 900px;
+}
+
+.togglebtn{
+  width: 200px;
+  border: none;  
+} 
+
+
+                                          /* Shop By Occasion */
+
+
+.category-item{
+  margin-right: 29px;
+   color: black;
+}
+.category-item:hover{
+  border-bottom: 2px solid #c71585 ;  
+} 
+.links{
+   color: black; 
+          
+}
+.links:hover{
+  color: #c71585;
+  text-decoration: none;
+   /* border-bottom: 1px solid #c71585; */
+}
+.heading{
+   font-weight: lighter;
+}
+.category{   
+  width: 570px;
+   margin: auto;
+}
+.category:hover{
+   color: #c71585;
+}
+@media screen and (min-width:320px) and (max-width:575px)  {
+   .category-item{
+       text-align: center;
+       margin-right: 5px;
+       font-size: 12px;
+       color: black;
+   }
+   .cards{
+       width: 100%;
+   }
+  
+   .nav-link:hover{
+       color: #c71585;
+   }
+   .category{    
+      width: 360px;
+       margin-left: 20px;
+   }
+   /* productlist */
+   .productfilter{
+    margin-bottom: 0px;
+}
+.filterhead{
+   display: none;
+    }
+   
+}
+
+
+@media screen and (min-width:576px) and (max-width:767px){
+  .category-item{
+      text-align: center;
+      margin-right:8px;
+      font-size: smaller;
+  }
+  .category{
+      width:450px;
+      margin-left: 25px;
+  }
+  .links{
+      color: black;
+     
+  }
+  .nav-link:hover{
+      color: #c71585;
+  }
+  /* productlist */
+  .productfilter{
+    margin-bottom: 0px;
+}
+.filterhead{
+   display: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+  .category-item{
+      text-align: center;
+      margin-left:10px;;
+      font-size: 18px;
+  }
+  .category{
+      width:700px;
+      margin-left: 15px;
+  }
+  .links{
+      color: black;
+     
+  }
+  .nav-link:hover{
+      color: #c71585;
+  }
+  
+  /* productlist */
+  .productfilter{ 
+    margin-bottom: 0px;    
+ }
+}
+@media screen and (min-width:991px) and (max-width:1199px) {
+  .productfilter{ 
+      margin-bottom: 0px;    
+   }
+   
+}
+                                       /* checkout */
+
+.yourdetail{
+    margin-left: 0px;
+    background-color:#FFB6C1;
+    height: 40px;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 25px;
+   border-radius: 5px;
+}
+
+.payment{
+    margin-left: 12px;
+    margin-top: 70px;
+}
+
+.checkout{
+ border: none;
+ margin-top: 20px;
+}
+
+                                       /* Product Review */
+
+ .reviewcards {
+  width: 200px;
+  height: 300px;
+ object-fit:cover;
+  background-color:white;
+  -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004); 
+  transform-origin:center;
+  transform:perspective(800px) rotateY(25deg);
+  transition:0.5s;
+ }
+  .reviewcard {
+  max-width:600px;
+  max-height:350px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;     
+      }                                   
+                                           /* wishlist */
+                                          
+ .wishlistcard{
+  width: 700px;
+   } 
+  .prodname:hover{
+  color: #c71595;
+ cursor: pointer;
+ }
+ @media screen and (min-width:320px) and (max-width:575px) {
+.wishlistcard{
+    width: 65%;
+ } 
+ }
+ @media screen and (min-width:576px) and (max-width:767px){
+.wishlistcard{
+ width: 50%;
+ } 
+}
+
+
+                                                                        
+
+/* Carsouel */
+.car{
+    width:100%;
+    height:550px;
+}
+.carousel-caption {
+  right: 5%;
+  bottom: 20%;
+  text-align: left;
+  padding:5px;
+}
+
+
+/* TwitterIcon animation */
+.twittericon{
+  font-size: 30px;
+  color:deepskyblue;
+}
+.twittericon:hover{
+  width: 30px;
+  cursor: pointer;
+  font-size: 30px;
+  color:deepskyblue;
+  animation: zoomin 0.3s linear 0.3;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoomin {
+  0%{
+    transform: scale(0.1);
+    visibility: visible;
+  }
+  50%{
+    transform: scale(0.2);
+    visibility: visible;
+  }
+  100%{
+    transform: scale(0.3);
+    visibility: visible;
+  }
+  
+}
+/* youTubeIcon Animation */
+.youtubeicon{
+  font-size: 30px;
+  color: red;
+}
+.youtubeicon:hover{
+  width: 40px;
+  cursor: pointer;
+  font-size: 30px;
+  color: red;
+  animation: zoomin 0.3s linear 0.3;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoomin {
+  0%{
+    transform: scale(0.1);
+    visibility: visible;
+  }
+  50%{
+    transform: scale(0.2);
+    visibility: visible;
+  }
+  100%{
+    transform: scale(0.3);
+    visibility: visible;
+  }
+  
+}
+#email{
+  background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #000;
+}
+.input{
+  padding-left: 35px;
+}
+
+/* Footer CSS End */
+.menu-item {
+  padding: 0 40px;
+  margin: 5px 10px;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+.menu-item-wrapper.active {
+  border: 1px blue solid;
+}
+.menu-item.active {
+  border: 1px green solid;
+}
+
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* AboutUS */
+.CategoryTabs{
+  color: #c71585;
+}
+
+.para{
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.contactUsIcons1{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  margin-right: 50px;
+  color: #c71585;
+}
+
+.pa3{
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 0px;
+}
+#ls1{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.pa4{
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 0px;
+}
+
+/* contactus */
+.contactUsIcons4{
+  color: #c71585;
+  font-size: 40px;
+  margin-left: 200px;
+  margin-right: 30px;
+  margin-top: 30px;
+
+}
+@media screen and (max-width:480px) {
+  .contactUsIcons4{
+    color: #c71585;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+ 
+}
+.pa3{
+  font-size: 35px;
+}
+#order{
+  font-weight: 100px;
+}

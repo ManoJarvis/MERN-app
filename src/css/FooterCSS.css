@@ -1,0 +1,150 @@
+/* For Footer */
+.footer{
+  background-image: url('../imgs/navbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.tithov{
+  cursor: pointer;
+}
+.tithov:hover{
+  color:#c71585;
+}
+/* Contact us icons */
+.contactUsIcons{
+  font-size: 30px;
+  cursor: pointer;
+}
+/* FB Icon Animation */
+.fbicon{
+  font-size: 30px;
+  color: blue;
+  cursor: pointer;
+}
+.fbicon:hover{
+  width:30px;
+  cursor: pointer;
+  color: blue;
+  font-size: 30px;
+  animation: zoomin 0.3s linear 0.3;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoomin {
+  0%{
+    transform: scale(0.5);
+    visibility: visible;
+  }
+  /* 50%{
+    transform: scale(1.2);
+    visibility: visible;
+  } */
+  100%{
+    transform: scale(1);
+    visibility: visible;
+  }
+  
+}
+/* InstaIcon Animation  */
+.instaicon{
+  font-size: 30px;
+  color:#8a3ab9;
+  cursor: pointer;
+}
+.instaicon:hover{
+  width: 30px;
+  cursor: pointer;
+  font-size: 30px;
+  color:#8a3ab9;
+  animation: zoomin 0.3s linear 0.3;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoomin {
+  0%{
+    transform: scale(0.5);
+    visibility: visible;
+  }
+  /* 50%{
+    transform: scale(0.2);
+    visibility: visible;
+  } */
+  100%{
+    transform: scale(1);
+    visibility: visible;
+  }
+  
+}
+
+
+/* TwitterIcon animation */
+.twittericon{
+font-size: 30px;
+color:deepskyblue;
+cursor: pointer;
+}
+.twittericon:hover{
+width: 30px;
+cursor: pointer;
+font-size: 30px;
+color:deepskyblue;
+animation: zoomin 0.3s linear 0.3;
+animation-delay: 0s;
+animation-fill-mode: forwards;
+}
+@keyframes zoomin {
+0%{
+  transform: scale(0.5);
+  visibility: visible;
+}
+/* 50%{
+  transform: scale(1);
+  visibility: visible;
+} */
+100%{
+  transform: scale(1);
+  visibility: visible;
+}
+
+}
+/* youTubeIcon Animation */
+.youtubeicon{
+font-size: 30px;
+color: red;
+cursor: pointer;
+}
+.youtubeicon:hover{
+width: 40px;
+cursor: pointer;
+font-size: 30px;
+color: red;
+animation: zoomin 0.3s linear 0.3;
+animation-delay: 0s;
+animation-fill-mode: forwards;
+}
+@keyframes zoomin {
+0%{
+  transform: scale(0.5);
+  visibility: visible;
+}
+/* 50%{
+  transform: scale(0.1);
+  visibility: visible;
+} */
+ 100%{
+  transform: scale(1);
+  visibility: visible;
+}
+}
+#email{
+background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #000;
+}
+.input{
+padding-left: 35px;
+}
+
+/* Footer CSS End */

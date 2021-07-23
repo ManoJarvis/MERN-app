@@ -1,0 +1,109 @@
+/* Carsouel */
+.car{
+    width:100%;
+    height:550px;
+}
+.carousel-caption {
+  right: 5%;
+  bottom: 20%;
+  text-align: left;
+  padding:5px;
+}
+.h11{
+    animation: movedown 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    color: white;
+    font-weight: 300;
+    font-size: 65px;
+}
+@keyframes movedown {
+    0%{
+        transform: translateY(-100px);
+        visibility: visible;
+        opacity: 0.5;
+       
+    }
+   
+    100%{
+        transform: translateY(0px);
+        visibility: visible;
+        opacity: 1;
+    }
+    
+}
+
+.bt{
+   animation-name: fadeInOut;
+   animation-duration: 2s;
+   animation-timing-function: linear;
+   background-color: #c71585;
+   color: white;
+   margin-top: 40px;
+   animation-fill-mode: forwards;
+
+}
+@keyframes fadeInOut{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+ @media screen and (min-width:380px) and (max-width:480px) { 
+    .h11{
+        animation: movedown 1s linear 1;
+        animation-delay: 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        color: white;
+        font-weight: 300;
+        font-size: 30px;
+    }
+    @keyframes movedown {
+        0%{
+            transform: translateY(-100px);
+            visibility: visible;
+            opacity: 0.5;
+        }
+        100%{
+            transform: translateY(0px);
+            visibility: visible;
+            opacity: 1;
+        }
+        
+    }
+
+    
+} 
+
+
+ 
+.car{
+    animation: zoomout 4s linear 1;
+    animation-delay:0.5s; 
+    visibility: visible;
+    animation-fill-mode: forwards;
+}
+@keyframes zoomout {
+    0%{
+        transform: scale(1);
+        visibility: visible;
+    }
+    25%{
+        transform: scale(1.1);
+        visibility: visible;
+    }
+
+     50%{
+        transform: scale(1.2);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(1.3);
+        visibility: visible;
+    }
+    
+} 

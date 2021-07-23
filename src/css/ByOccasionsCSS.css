@@ -1,0 +1,145 @@
+.category-item{
+    margin-right: 29px;
+     color: black;
+ }
+ .cards {
+
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  .occasionimg{
+      padding: 10px;
+  }
+  
+   
+ .occasionimg:hover{
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1); 
+    opacity: 1;
+ }
+ 
+  
+  .cards:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    opacity: 1;
+    border: #c71585 2px solid;
+    font-weight: lighter;
+    text-align: center;
+  
+  }
+ .category-item:hover{
+     color: #c71585;
+ }
+ .links{
+     color: black;
+     
+ }
+ .links:hover{
+     color: #c71585;
+     text-decoration: none;
+     border-bottom: 2px solid #c71585;
+ }
+ .heading{
+     font-weight: lighter;
+ }
+ .explore{
+     
+     margin-left: 520px;
+     background-color: #c71585;
+     color: white;
+ }
+ .category{
+     
+    width: 570px;
+     margin: auto;
+ }
+ .category:hover{
+     color: #c71585;
+ }
+ @media screen and (max-width:600px)  {
+     .category-item{
+         text-align: center;
+         margin-right: 5px;
+         font-size: smaller;
+     }
+     .cards{
+         width: 100%;
+     }
+     .occasionimg{
+         width: 100%;
+     }
+     .links{
+         color: black;
+         font-size: 10px;
+     }
+     .nav-link:hover{
+         color: #c71585;
+     }
+     .category{
+         
+        width: 350px;
+         margin-left: 18px;
+     }
+     .explore{
+    
+         margin-left: 100px;
+         margin-top: 20px;
+         background-color: #c71585;
+         color: white;
+     }
+ }
+ @media screen and (max-width:750px){
+    .category-item{
+        text-align: center;
+        margin-left:5px;;
+        font-size: smaller;
+    }
+    .category{
+        width:350px;
+    }
+    .links{
+        color: black;
+       
+    }
+    .nav-link:hover{
+        color: #c71585;
+    }
+    
+    .explore{
+   
+        margin-left: 300px;
+        margin-top: 20px;
+        background-color: #c71585;
+        color: white;
+    }
+ }
+ @media screen and (max-width:700px)  {
+     .category-item{
+         text-align: center;
+         margin-right: 10px;
+         font-size: large;
+     }
+     .links{
+         color: black;
+        
+     }
+     .nav-link:hover{
+         color: #c71585;
+     }
+     /* .category{
+         
+        width: 700px;
+        margin-left: 20px;
+         
+     } */
+     .explore{
+    
+         margin-left: 120px;
+         margin-top: 20px;
+         background-color: #c71585;
+         color: white;
+     }
+ }

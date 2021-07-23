@@ -1,0 +1,32 @@
+.deleteicon{
+    margin-left: 500px;
+    }
+.deleteicon:hover{
+    cursor: pointer;
+    color: red;
+
+}
+    .wishheading{
+font-weight: lighter;
+    }
+    @media screen  and (min-width:350px) and (max-width:499px){
+        .wishlistimg{
+            width: 100%;
+        }
+        .deleteicon{
+            margin-left: 220px;
+            }
+    }
+    @media screen  and (min-width:500px) and (max-width:700px){
+        .wishlistimg{
+            width: 100%;
+        }
+        .deleteicon{
+            margin-left: 300px;
+            }
+    }
+    @media screen  and (min-width:768px) and (max-width:990px){
+        .deleteicon{
+            margin-left: 300px;
+            }
+    }

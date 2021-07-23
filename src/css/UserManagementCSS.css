@@ -1,0 +1,16 @@
+#userm{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 100px;
+}
+
+#delum:hover{
+    cursor: pointer;
+    color: red;
+}
+
+#udname{
+    font-weight: 100px;
+    font-size: 30px;
+}

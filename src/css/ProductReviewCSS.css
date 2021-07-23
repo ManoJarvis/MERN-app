@@ -1,0 +1,45 @@
+/* .swiper-container {
+    width: 900px;
+    height: 300px;
+    padding: 50px;
+    /* background-color: whitesmoke; */
+ 
+  
+   
+    /* * {
+      margin: 0;
+      padding: 0;
+      box-sizing:border-box;
+    }
+   
+    .reviewcards {
+      width: 200px;
+      height: 300px;
+      object-fit:cover;
+      background-color:white;
+      -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+      
+      transform-origin:center;
+      transform:perspective(800px) rotateY(25deg);
+      transition:0.5s;
+    }
+    .reviewcard {
+      max-width:600px;
+      max-height:350px;
+      
+      
+      
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:20px;
+      
+    }
+    .reviewcard:hover img {
+      opacity:0.3;
+    }
+    .reviewcard .reviewcards:hover {
+      transform:perspective(800px)       rotateY(0deg);
+      opacity:1;
+    }
+  */

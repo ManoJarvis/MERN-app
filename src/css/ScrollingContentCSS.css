@@ -1,0 +1,163 @@
+.swiper-container {
+  width: 100%;
+  margin: auto;
+}
+ .scrollcard:hover{
+  -ms-transform: scale(1.1);        
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+  opacity: 1;
+  border: #c71585 2px solid;
+  font-weight: lighter;
+  text-align: center;
+ 
+  cursor: pointer;
+} 
+.swiper-slide {
+  height: 500px;
+ 
+}
+.scrollcard {
+  width:320px;
+  transition: transform .2s;
+  padding: 0px;
+  margin-left: 28px;
+  height:400px;    
+}
+.scrollcardimg{
+  padding: 10px;
+  transition: transform .2s;
+}
+
+.scrollcardimg:hover{
+/* -ms-transform: scale(1.1);
+-webkit-transform: scale(1.1); 
+transform: scale(1.1);
+opacity: 1; */
+cursor: pointer;
+}
+/* New arrivals */
+  @keyframes  zoomin {
+    0%{
+      transform: scale(0.5);
+      visibility: visible;
+    }
+    
+    
+    100%{
+      transform: scale(1);
+      visibility: visible;
+    }
+  }
+  /* New arrivals */
+  
+  #img{
+    cursor: pointer;
+    
+    
+    }
+    @keyframes  zoomin {
+      0%{
+        transform: scale(0.5);
+        visibility: visible;
+      }
+      
+      
+      100%{
+        transform: scale(1);
+        visibility: visible;
+      }
+    }
+    
+    #img1{
+      cursor: pointer;
+    }
+    
+    #bf{
+      margin-top: 250px;
+      font-weight: 120;
+      font-size:30px ;
+      text-align: center;
+    }
+    #btn{
+      background-color: #c71585;
+         color: white;
+     
+    }
+  
+    #sc{
+      font-weight: 150;
+      font-size: 50px;
+    }
+   
+    #img {
+      padding: 20px;
+      
+      transition: transform .2s;
+      background-color: white;
+      margin: 0 auto;
+     
+    }
+    #img:hover{
+        background-color: white;
+        opacity: 0.2;
+        border: 2px solid #c71585;
+        
+        
+    }
+    
+    #img:hover {
+      -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.1); 
+      opacity: 1;
+     
+    }
+  
+  
+    #img1 {
+      padding: 20px;
+      
+      transition: transform .2s;
+      background-color: white;
+      margin: 0 auto;
+    }
+    #img1:hover{
+        background-color: white;
+        opacity: 0.2;
+        
+        border: 2px solid #c71585 ;
+    }
+    
+    #img1:hover {
+      -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.1); 
+      opacity: 1;
+     
+    }
+  
+    .Birthdaycard{
+      background-color: #ffeff6;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin-top: 50px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+  
+    }
+    @media screen and (max-width:450px){
+      .swiper-container {
+        width: 100%;
+      }
+      .swiper-slide {
+        height: 350px;
+        margin-top: 20px; 
+      }
+      .scrollcard {
+        margin-left: 40px;
+        transition: transform .2s;
+        height:300px;
+        
+      }
+    }

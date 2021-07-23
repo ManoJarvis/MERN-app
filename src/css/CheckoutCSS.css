@@ -1,0 +1,35 @@
+.yourdetail{
+    margin-left: 0px;
+    background-color:#90EE90;
+    height: 40px;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 25px;
+   border-radius: 5px;
+}
+.payment{
+    margin-left: 12px;
+    margin-top: 70px;
+}
+.paymentlabel{
+    margin-left: 30px;
+}
+.paymentbtn{
+    background-color: #c71585;
+    color:white;
+}
+.paymentform{
+    border: none;
+    margin-left: 10px;
+   
+}
+/* card */
+.checkout{
+ border: none;
+ margin-top: 20px;
+}
+.checkoutheading{
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}

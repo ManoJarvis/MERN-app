@@ -1,0 +1,25 @@
+.dismiss{
+    margin-left: 150px;
+    margin-right: 2px;
+}
+
+@media screen and (min-width:400px) and (max-width:503px){
+    .dismiss{
+        margin-left: 160px;
+    }
+    
+}
+
+@media screen and (min-width:504px) and (max-width:563px){
+    .dismiss{
+        margin-left: 260px;
+    }
+    
+}
+
+@media screen and (min-width:564px) and (max-width:624px){
+    .dismiss{
+        margin-left: 320px;
+    }
+    
+}

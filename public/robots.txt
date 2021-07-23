@@ -1,0 +1,15 @@
+# Allow all user agents.
+User-agent: *
+Allow: /
+
+# Disallow for all user agents 
+User-agent: *
+Disallow: /admin/
+Disallow: /adminprofile/admin/*/
+
+# User agent "Googlebot" should not crawl any folder or any our subdirectories.
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /adminprofile/admin/
+
+Sitemap: http://localhost:8080/sitemap.xml

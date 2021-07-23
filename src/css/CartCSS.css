@@ -1,0 +1,73 @@
+#but{
+    margin-left: 10px;
+    border-radius: 50%;
+        background-color: transparent;
+        border-radius: 50%;
+        box-shadow: 0 0 3px rgb(0 0 0 / 10%);
+       
+        margin: 5px;
+        font-size: larger;
+        color: black;
+    }
+    #but:hover{
+       background-color: #c71585;
+       border-radius: 50%;
+    }
+
+    
+
+
+#but1{
+    
+    width: 50px;
+    
+}
+
+#but2{
+    margin-left: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgb(0 0 0 / 10%);
+   
+    margin: 5px;
+    font-size: larger;
+    color: black;
+}
+#but2:hover{
+   background-color: #c71585;
+   border-radius: 50%;
+}
+
+
+
+
+
+.btdel{
+    margin-left: 320px;
+}
+    
+    .btdel:hover{
+    color: red;
+    cursor: pointer;
+
+}
+
+@media  screen and(max-width:450px){
+    .btdel{
+    margin-left: 200px;
+}}
+
+#lgbt{
+
+        color:whitesmoke;
+        background-color:#c71585 ;
+      
+}
+
+#pdnam:hover{
+    cursor:pointer;
+    color: #c71585;
+   
+
+}
