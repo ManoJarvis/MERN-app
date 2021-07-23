@@ -21,6 +21,8 @@ userAPI.use('/',(req,res,next)=>{
     next()
 })
 
+
+
 // Get users by name
 userAPI.get("/getusers/:username",expressAsyncHandler(async(req,res,next)=>{
     let username=req.params.username

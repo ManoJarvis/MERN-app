@@ -43,6 +43,15 @@ mongoClient.connect(databaseUrl,{useNewUrlParser:true,useUnifiedTopology:true},(
 const userAPI=require('./APIs/user-api')
 const productAPI=require('./APIs/product-api')
 const adminAPI=require('./APIs/admin-api')
+
+// Middleware for setting CORS policy
+app.use((req,res,next)=>{
+  //Enabling CORS
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, x-client-key, x-client-token, x-client-secret, Authorization");
+  next();
+})
 // To evaluate path to execute espcific api
 app.use('/users',userAPI)
 app.use('/products',productAPI)
