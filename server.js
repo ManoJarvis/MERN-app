@@ -42,7 +42,7 @@ mongoClient.connect(databaseUrl,{useNewUrlParser:true,useUnifiedTopology:true},(
 // Importing API
 const userAPI=require('./APIs/user-api')
 const productAPI=require('./APIs/product-api')
-const adminAPI=require('./APIs/Admin-api')
+const adminAPI=require('./APIs/admin-api')
 // To evaluate path to execute espcific api
 app.use('/users',userAPI)
 app.use('/products',productAPI)
