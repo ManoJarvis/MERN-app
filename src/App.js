@@ -55,7 +55,7 @@ function App() {
   
   useEffect(()=>{
       let userDetails=JSON.parse(localStorage.getItem('user'))
-      authAxios.get('/users/auth')
+      authAxios.post('/users/auth')
       .then(res=>{
       let result=res.data.message
       if(result==="success"){

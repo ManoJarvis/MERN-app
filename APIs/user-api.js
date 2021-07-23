@@ -374,7 +374,7 @@ userAPI.get('/getreviews/:prdName',expressAsyncHandler(async(req,res)=>{
 
 
 // User Auth
-userAPI.get('/auth',checkToken,(req,res)=>{
+userAPI.post('/auth',checkToken,(req,res)=>{
     res.send({message:"success"})
 })
 
