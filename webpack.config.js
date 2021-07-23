@@ -11,7 +11,6 @@ module.exports = function(_env, argv) {
   return {
     devtool: isDevelopment && "cheap-module-source-map",
     entry: "./src/index.js",
-    watch: true,
     output: {
       path: path.resolve(__dirname, "dist"),
       filename: "assets/js/bundle.js",

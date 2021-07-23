@@ -53,7 +53,7 @@
     "webdev": "webpack serve --mode development",
     "web": "webpack --mode production",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack --mode production",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch": "npm-watch"
